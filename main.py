@@ -4,7 +4,6 @@ from dtos import ProductDTO
 
 app = FastAPI()
 
-
 @app.get("/")
 def home():
     return "Welcome to FastAPI Series !"
