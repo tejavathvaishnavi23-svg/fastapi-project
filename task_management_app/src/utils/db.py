@@ -11,7 +11,7 @@ Base = declarative_base()
 
 
 def get_db():
-    session = LocalSession()
+    session = SessionLocal()
     try:
         yield session
     finally:
