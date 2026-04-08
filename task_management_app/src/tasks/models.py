@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, Boolean
-from task_management_app.src.utils.db import Base
+from src.utils.db import Base
 
 
 class TaskModel(Base):
