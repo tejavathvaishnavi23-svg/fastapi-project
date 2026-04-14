@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class UserSchema(BaseModel):
     name: str
     username: str
@@ -9,10 +10,10 @@ class UserSchema(BaseModel):
 
 class UserResponseSchema(BaseModel):
     id: int
-    name: str
-    username: str
-    email: str
-
+    title: str
+    description: str
+    is_completed: bool
+    user_id: int
 
 
 class LoginSchema(BaseModel):

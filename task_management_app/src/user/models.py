@@ -1,6 +1,7 @@
 from sqlalchemy import Column, String, Integer, DateTime, Boolean
 from src.utils.db import Base
 
+
 class UserModel(Base):
     __tablename__ = "user_Table"
 
